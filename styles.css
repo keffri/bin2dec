@@ -17,14 +17,14 @@ body {
 }
 
 .conversion-div {
-  height: 300px;
+  height: 250px;
   width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #272727;
-  box-shadow: 0 0 10px 2px #111111;
+  /* background-color: #272727; */
+  /* box-shadow: 0 0 10px 2px #111111; */
 }
 
 .buttons {
@@ -69,12 +69,14 @@ body {
   color: #fff;
   line-height: 35px;
   text-align: right;
+  padding-right: 5px;
 }
 
 .decimal {
   color: #fff;
   line-height: 35px;
   text-align: right;
+  padding-right: 5px;
 }
 
 .buttonsTwo {
