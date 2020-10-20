@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conversion-div {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+  box-shadow: 0 0 10px 2px #111111;
+}
+
+.buttons {
+  width: 300px;
+  height: 30px;
+  display: flex;
+}
+
+.btn {
+  border-radius: 0;
+  border: 1px solid #fff;
+  flex-grow: 1;
+  color: #fff;
+  background-color: #212121;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #fff;
+
+  color: #212121;
+}
+
+.zero {
+  margin-right: 1px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.digits {
+  margin-top: 5px;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #fff;
+  background-color: #212121;
+}
+
+.convert {
+  margin-top: 5px;
+}
