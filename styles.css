@@ -12,6 +12,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
+  align-content: center;
 }
 
 .conversion-div {
@@ -32,6 +34,7 @@ body {
 }
 
 .btn {
+  cursor: pointer;
   border-radius: 0;
   border: 1px solid #fff;
   flex-grow: 1;
@@ -62,6 +65,31 @@ body {
   background-color: #212121;
 }
 
+.binary {
+  color: #fff;
+  line-height: 35px;
+  text-align: right;
+}
+
+.decimal {
+  color: #fff;
+  line-height: 35px;
+  text-align: right;
+}
+
+.buttonsTwo {
+  width: 300px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.clear {
+  margin-top: 5px;
+  padding: 5px;
+}
+
 .convert {
   margin-top: 5px;
+  padding: 5px;
 }
